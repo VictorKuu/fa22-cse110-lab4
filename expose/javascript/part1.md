@@ -15,6 +15,3 @@ The code returns an error. This is because result is only defined in the if bloc
 
 6. What is printed by line 13? If the code returns an error, explain why. 
 The code returns an error. This is because result is only defined in the if block, not the main function block, thus is undefined when calling it outside of the if block, but inside the function block. 
-
-
-note: slack asks us to rewire the same answer in the previous question if there's an error...double check
