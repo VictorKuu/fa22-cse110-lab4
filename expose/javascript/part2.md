@@ -26,7 +26,7 @@ There will be an error. This is because we defined discountedPrice using let, wh
 There will be an error. This is because we define i using let, which means that it can only be accessed within the block it is defined in. Because we want to print i outside of the block it was defined in, we get an error.
 
 10. What will happen at line 12 and why? If the code causes an error, explain why.
-3. This is because there are three items listed under the list of prices. Length is also defined at the beginning of the function, meaning that the value will be remembered if asked to print at the end of the function. However, it is defined using const, meaning that additional changes later in the code will not be reflected. 
+3 This is because there are three items listed under the list of prices. Length is also defined at the beginning of the function, meaning that the value will be remembered if asked to print at the end of the function. However, it is defined using const, meaning that additional changes later in the code will not be reflected. 
 
 11. What will this function return? Give a brief explanation. If the code causes an error, explain why.
 [50, 100, 150] will be pinted. This is because there are three prices, which will be discounted and added to the discounted list. The variable is  defined at the beginning of the function, meaning that the value will be remembered if asked to print at the end of the function. However, it is defined using const, meaning that additional changes to each value in the list later in the code will not be reflected.
