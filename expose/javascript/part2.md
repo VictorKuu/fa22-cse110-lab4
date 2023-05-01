@@ -37,20 +37,24 @@ There will be an error. This is because we define i using let, which means that 
 12d. alert( student["Favorite Teacher"].name );
 12e. alert( student.courseload[0] );
 
-13a. "32"           Concatenation is happening 
-13b. 1              Subtracting numbers (regardless of what type)
-13c. 3              Adding 3 to 0 is 3.
-13d. "3null"        Concatenating the strings 3 and null
-13e. 4              true = 1, added to 3 produces 4
-13f. 0              false = 0, added with nothing is 0.
-13g. "3undefined"   Concatenating the strings 3 and undefined
-13h. NaN            Subtracting 3 from an undefined value is not possible.
+13a. "32"           Concatenation is happening <br/>
+13b. 1              Subtracting numbers (regardless of what type) <br/>
+13c. 3              Adding 3 to 0 is 3. <br/>
+13d. "3null"        Concatenating the strings 3 and null <br/>
+13e. 4              true = 1, added to 3 produces 4 <br/>
+13f. 0              false = 0, added with nothing is 0. <br/>
+13g. "3undefined"   Concatenating the strings 3 and undefined <br/>
+13h. NaN            Subtracting 3 from an undefined value is not possible. <br/>
 
-14a. true           Numerically, 3 is greater than 2
-14b. false          The comparison of two different strings gives false.
-14c. true           Comparing the string/int version of a number will be true
+14a. true           Numerically, 3 is greater than 2 <br/>
+14b. false          The comparison of two different strings gives false. <br/>
+14c. true           Comparing the string/int version of a number will be true <br/>
 14d. false          Comparing the exact type and value of a string/int version of a number will be false. This is not the same object in memeory
-14e. false          true is converted to 1, but that doesn't equal to 2.
-14f. true           the boolean of any number is true which is === to true (because exact same value)
+14e. false          true is converted to 1, but that doesn't equal to 2. <br/>
+14f. true           the boolean of any number (except 0) is true which is === to true (because exact same value)
 
 15. In javascript when comparing two items, == compares the value of the items, while === compares the memory address of each object. If the object is the same, then the result of === will be true. 
+
+17. The output is [6,8,10]. We are first assigning for the parameters the following: array = (modifyArray([1,2,3]), callback = doSomething. Next, doSomething wil be called upon with its defined method body where the parameter is the value of the array's element. In other words, the function expression can be translated to ((num + 2) * 2). Finally, doSomething returns and we repeat the loop in modifyArray until there are no more elements.
+
+19. 1 4 3 2 is the output with a short delay after the 3rd output.
