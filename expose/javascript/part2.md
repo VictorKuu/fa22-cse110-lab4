@@ -55,6 +55,6 @@ There will be an error. This is because we define i using let, which means that 
 
 15. In javascript when comparing two items, == compares the value of the items, while === compares the memory address of each object. If the object is the same, then the result of === will be true. 
 
-17. The output is [6,8,10]. We are first assigning for the parameters the following: array = (modifyArray([1,2,3]), callback = doSomething. Next, doSomething wil be called upon with its defined method body where the parameter is the value of the array's element. In other words, the function expression can be translated to ((num + 2) * 2). Finally, doSomething returns and we repeat the loop in modifyArray until there are no more elements.
+17.The output is [6,8,10]. We are first assigning for the parameters the following: array = (modifyArray([1,2,3]), callback = doSomething. Next, doSomething wil be called upon with its defined method body where the parameter is the value of the array's element. In other words, the function expression can be translated to ((num + 2) * 2). Finally, doSomething returns and we repeat the loop in modifyArray until there are no more elements.
 
-19. 1 4 3 2 is the output with a short delay after the 3rd output.
+19.1 4 3 2 is the output with a short delay after the 3rd output.
